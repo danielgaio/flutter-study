@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "332322224014",
+    "project_id": "motorcycle-picker",
+    "storage_bucket": "motorcycle-picker.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:332322224014:android:a107c06a660dc2608256df",
+        "android_client_info": {
+          "package_name": "com.example.motorcycle_picker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "332322224014-n86r6e7sldubcn1n3rk5o2f3nkop0nhf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.motorcycle_picker",
+            "certificate_hash": "fdc9ffc324ff9e425b494e3a9ec71dfa92b5dc10"
+          }
+        },
+        {
+          "client_id": "332322224014-07jji6jdac0u87eo8n7t6j5h7trhd517.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDDgEoYKKrJm8t57ul-ba0B7MajyRi-VrY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "332322224014-07jji6jdac0u87eo8n7t6j5h7trhd517.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "332322224014-kfbah0ql1aibjas029l33t5j4uvdgi5q.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.motorcyclePicker"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
