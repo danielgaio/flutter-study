@@ -37,10 +37,26 @@ dependencies:
   firebase_core: ^1.24.0
   google_sign_in: ^5.4.2
   firebase_auth:
+  provider: ^6.0.3
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
+  flutter_launcher_icons: ^0.9.2
+  flutter_native_splash: ^2.0.1+1
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: 'assets/images/rider_launcher_icon.png'
+
+# Run following commands to generate splash screen
+# flutter clean
+# flutter pub get
+# flutter pub run flutter_native_splash:create
+flutter_native_splash:
+  color: '#ffffff'
+  image: 'assets/images/splash_screen.png'
 
   # The "flutter_lints" package below contains a set of recommended lints to
   # encourage good coding practices. The lint set provided by the package is

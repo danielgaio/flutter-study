@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.motorcycle_picker">
    <application
-        android:label="motorcycle_picker"
+        android:label="Motorcycle Picker"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity
