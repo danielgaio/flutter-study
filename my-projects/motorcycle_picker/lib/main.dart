@@ -2,6 +2,7 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:motorcycle_picker/screens/home_screen.dart';
+import 'package:motorcycle_picker/screens/motorcycle_preferences_form.dart';
 import 'package:motorcycle_picker/services/firebase_auth_methods.dart';
 import 'package:provider/provider.dart';
 import 'firebase_options.dart';
@@ -53,6 +54,10 @@ class AuthWrapper extends StatelessWidget {
     if (firebaseUser != null) {
       return const HomeScreen();
     }
+    //------
+    // the bellow screen must appear after the account creation
+    return MotorcyclePreferencesFormScreen();
+    //------
     return LoginScreen();
   }
 }

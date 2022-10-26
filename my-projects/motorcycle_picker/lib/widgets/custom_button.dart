@@ -11,6 +11,7 @@ class CustomButton extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    // blue button from the login tutorial
     // return ElevatedButton(
     //   style: ElevatedButton.styleFrom(
     //     minimumSize: const Size(double.infinity, 40),
@@ -21,11 +22,6 @@ class CustomButton extends StatelessWidget {
     return Center(
       child: FloatingActionButton.extended(
         onPressed: onTap,
-        // icon: Image.asset(
-        //   'assets/images/icons8-google-144.png',
-        //   height: 32,
-        //   width: 32,
-        // ),
         label: Text(text),
         backgroundColor: Colors.white,
         foregroundColor: Colors.black,
