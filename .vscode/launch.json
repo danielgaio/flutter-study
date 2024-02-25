@@ -16,5 +16,11 @@
             "request": "launch",
             "type": "dart"
         },
+        {
+            "name": "roll_dice",
+            "cwd": "udemy/2_flutter_and_dart_the_complete_guide/roll_dice",
+            "request": "launch",
+            "type": "dart"
+        },
     ]
 }
