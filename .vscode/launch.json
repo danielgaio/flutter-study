@@ -22,5 +22,11 @@
             "request": "launch",
             "type": "dart"
         },
+        {
+            "name": "i_love_bikes",
+            "cwd": "udemy/1_the_complete_flutter_development_bootcamp_with_dart/i_love_bikes",
+            "request": "launch",
+            "type": "dart"
+        },
     ]
 }
