@@ -5,26 +5,26 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "i_am_rich",
-            "cwd": "udemy/1_the_complete_flutter_development_bootcamp_with_dart/i_am_rich",
+            "name": "1_i_am_rich",
+            "cwd": "udemy/1_the_complete_flutter_development_bootcamp_with_dart/1_i_am_rich",
             "request": "launch",
             "type": "dart"
         },
         {
-            "name": "first_app",
-            "cwd": "udemy/2_flutter_and_dart_the_complete_guide/first_app",
+            "name": "1_first_app",
+            "cwd": "udemy/2_flutter_and_dart_the_complete_guide/1_first_app",
             "request": "launch",
             "type": "dart"
         },
         {
-            "name": "roll_dice",
-            "cwd": "udemy/2_flutter_and_dart_the_complete_guide/roll_dice",
+            "name": "2_roll_dice",
+            "cwd": "udemy/2_flutter_and_dart_the_complete_guide/2_roll_dice",
             "request": "launch",
             "type": "dart"
         },
         {
-            "name": "i_love_bikes",
-            "cwd": "udemy/1_the_complete_flutter_development_bootcamp_with_dart/i_love_bikes",
+            "name": "2_i_love_bikes",
+            "cwd": "udemy/1_the_complete_flutter_development_bootcamp_with_dart/2_i_love_bikes",
             "request": "launch",
             "type": "dart"
         },
